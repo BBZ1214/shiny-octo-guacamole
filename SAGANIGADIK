@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1A2B 遊戲</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>1A2B 遊戲</h1>
+        <p>請猜一組四位數字（每位數字範圍 0-9 且不重複）。</p>
+        <input type="text" id="guess" maxlength="4" placeholder="例如：1234">
+        <button id="submit">提交</button>
+        <p id="message"></p>
+        <p id="attempts">嘗試次數：0</p>
+        <h3>提示：</h3>
+        <ul id="hints"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
